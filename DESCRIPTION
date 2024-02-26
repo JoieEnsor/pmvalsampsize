@@ -1,0 +1,17 @@
+Package: pmvalsampsize
+Version: 0.1.0
+Date: 2023-11-14
+Language: en-GB
+Title: Sample Size for External Validation of a Prediction Model
+Authors@R: c(person("Joie", "Ensor", role = c("aut", "cre"), email = "j.ensor@bham.ac.uk"))
+Maintainer: Joie Ensor <j.ensor@bham.ac.uk>
+Depends: R (>= 2.1)
+Imports: graphics, pROC, utils
+Suggests: 
+Description: Computes the minimum sample size required for the external validation of an existing multivariable prediction model using the criteria proposed by Archer (2020) <doi:10.1002/sim.8766> and Riley (2021) <doi:10.1002/sim.9025>.
+License: GPL (>= 3)
+RoxygenNote: 7.2.3
+LazyData: true
+Encoding: UTF-8
+URL: https://github.com/JoieEnsor/pmvalsampsize
+BugReports: https://github.com/JoieEnsor/pmvalsampsize/issues
