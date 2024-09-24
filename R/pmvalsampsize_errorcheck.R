@@ -62,7 +62,7 @@ pmvalsampsize_errorcheck <- function(type,prevalence,cstatistic,oe,oeciwidth,csl
     if (cstatistic < 0 | cstatistic > 1) stop('cstatistic must be between 0 and 1')
     if (is.numeric(cstatistic) == F) stop('cstatistic must be numeric')
 
-    if (is.numeric(cslope) == F) stop('rsquared must be numeric')
+    if (is.numeric(cslope) == F) stop('cslope must be numeric')
 
     if (prevalence <= 0 | prevalence >= 1) stop('prevalence must be between 0 and 1')
 
