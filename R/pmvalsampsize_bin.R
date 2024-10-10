@@ -245,6 +245,9 @@ pmvalsampsize_bin <- function(prevalence,cstatistic,oe,oeciwidth,cslope,csciwidt
 
   if (graph==TRUE) {
     hist(LP, freq=FALSE)
+	  if (!is.na(lpbeta[1])) {
+		hist(P, freq=FALSE)
+	}
   }
 
   # input assumed parameters of calibration model (in future vr these could be options)
