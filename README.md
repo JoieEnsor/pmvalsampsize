@@ -3,6 +3,7 @@
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/pmvalsampsize)](https://CRAN.R-project.org/package=pmvalsampsize)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/pmvalsampsize)](https://CRAN.R-project.org/package=pmvalsampsize)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/pmvalsampsize)](https://CRAN.R-project.org/package=pmvalsampsize)
 [![License: GPL (>= 3)](https://img.shields.io/badge/License-GPL%20(%3E%3D%203)-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <!-- badges: end -->
 
